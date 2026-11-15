@@ -1,0 +1,7 @@
+unit_group,official_marks,reconciled_gross_total,reconciled_deviation,final_total_after_deletion,final_deviation,final_deviation_pct
+Units I+II,16,16.0,0.0,16.5915,0.5915,3.7
+Units III+IV,17,17.0,0.0,17.3343,0.3343,1.97
+Units V+VI,18,18.0,0.0,17.9637,-0.0363,-0.2
+Units VII+VIII,12,12.0,0.0,11.9406,-0.0594,-0.49
+Unit IX,7,7.0,0.0,6.1699,-0.8301,-11.86
+ALL,70,70.0,0.0,70.0,-0.0,-0.0

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f1b2d">
+<meta name="description" content="Offline diagnostic and revision app for CBSE Class XII Physics 2027 (70-mark theory paper). Chapter-level only.">
+<title>Physics 2027 — Diagnostic &amp; Revision</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">P</span>
+    <div>
+      <strong>Physics 2027</strong>
+      <small>CBSE Class XII · 70-mark theory · chapter-level</small>
+    </div>
+  </div>
+  <div class="topbar-actions">
+    <span id="netBadge" class="badge badge-off" title="The app works offline once installed">checking…</span>
+    <button id="installBtn" class="btn btn-ghost" hidden>Install</button>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist">
+  <button class="tab active" data-view="dashboard" role="tab">Dashboard</button>
+  <button class="tab" data-view="practice" role="tab">Practice</button>
+  <button class="tab" data-view="exam" role="tab">Exam</button>
+  <button class="tab" data-view="progress" role="tab">Progress</button>
+  <button class="tab" data-view="study" role="tab">Study</button>
+  <button class="tab" data-view="data" role="tab">Backup</button>
+  <button class="tab" data-view="about" role="tab">About</button>
+</nav>
+
+<main id="main">
+  <!-- DASHBOARD -->
+  <section id="view-dashboard" class="view active">
+    <h1>Your preparation picture</h1>
+    <p class="lede">Readiness is measured from your own answered questions. Recommendations combine
+      your measured chapter readiness with the research model's chapter exposure and hours — the
+      research values are never mixed into your score, only used to weigh where the next hour goes.</p>
+    <div id="dashStats" class="statgrid"></div>
+    <h2>What to do next</h2>
+    <div id="dashPriority" class="cards"></div>
+    <h2>Due for revision</h2>
+    <div id="dashDue" class="cards"></div>
+    <h2>Chapter readiness</h2>
+    <div id="dashChapters" class="chapterlist"></div>
+  </section>
+
+  <!-- PRACTICE -->
+  <section id="view-practice" class="view">
+    <div class="row-between">
+      <h1>Practice</h1>
+      <div class="row">
+        <select id="practiceChapter" class="input" aria-label="Chapter filter"></select>
+        <select id="practiceMode" class="input" aria-label="Feedback mode">
+          <option value="practice">Practice (instant feedback)</option>
+          <option value="strict">Strict (feedback at the end)</option>
+        </select>
+      </div>
+    </div>
+    <div id="questionArea" class="question"></div>
+  </section>
+
+  <!-- EXAM -->
+  <section id="view-exam" class="view">
+    <h1>Strict exam mode</h1>
+    <p class="lede">A 70-mark paper built from the verified 2026-27 structure (A 16×1, B 5×2, C 7×3,
+      D 2×4, E 3×5). Three hours, no feedback until you submit. Written answers are marked by you
+      against the rubric, so the score is honest about what it is.</p>
+    <div class="row">
+      <label class="input-label">Seed <input id="examSeed" class="input" type="number" value="20261115" step="1"></label>
+      <button id="examStart" class="btn">Generate &amp; start paper</button>
+      <button id="examAbandon" class="btn btn-ghost" hidden>Abandon</button>
+    </div>
+    <div id="examArea"></div>
+  </section>
+
+  <!-- PROGRESS -->
+  <section id="view-progress" class="view">
+    <h1>Progress and calibration</h1>
+    <div id="progressStats" class="statgrid"></div>
+    <h2>Chapter detail</h2>
+    <div id="progressTable" class="tablewrap"></div>
+    <h2>Confidence calibration</h2>
+    <p class="lede">Your confidence is recorded before each answer. The gap between confidence and
+      observed accuracy is the useful number: positive means overconfidence.</p>
+    <div id="calibration" class="tablewrap"></div>
+  </section>
+
+  <!-- STUDY -->
+  <section id="view-study" class="view">
+    <h1>Study timer</h1>
+    <p class="lede">Study and break time are tracked separately and never merged.</p>
+    <div class="timer-card">
+      <div id="timerDisplay" class="timer">00:00:00</div>
+      <div id="timerState" class="muted">Idle</div>
+      <div class="row">
+        <button id="timerStart" class="btn">Start</button>
+        <button id="timerBreak" class="btn btn-ghost" disabled>Start break</button>
+        <button id="timerStop" class="btn btn-ghost" disabled>Stop &amp; save</button>
+      </div>
+    </div>
+    <h2>Recent sessions</h2>
+    <div id="sessionList" class="tablewrap"></div>
+  </section>
+
+  <!-- DATA -->
+  <section id="view-data" class="view">
+    <h1>Backup, restore and versions</h1>
+    <p class="lede">Everything lives in this browser's IndexedDB. Export a backup before changing
+      browsers or clearing site data.</p>
+    <div class="row">
+      <button id="exportBtn" class="btn">Export backup (JSON)</button>
+      <label class="btn btn-ghost">Import backup<input id="importFile" type="file" accept="application/json" hidden></label>
+      <button id="snapshotBtn" class="btn btn-ghost">Save version snapshot</button>
+      <button id="wipeBtn" class="btn btn-danger">Delete all my data</button>
+    </div>
+    <div id="importReport" class="notice" hidden></div>
+    <h2>Version history (last 10 snapshots)</h2>
+    <div id="versionList" class="tablewrap"></div>
+    <h2>Data summary</h2>
+    <pre id="dataSummary" class="pre"></pre>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="view-about" class="view">
+    <h1>About this app</h1>
+    <div id="aboutBody"></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span id="footVersion">v1.0.0</span> · chapter-level only · no topic-level analysis ·
+  research model <span id="footModel">1.0.0</span>
+</footer>
+
+<script src="logic.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "Physics 2027 — CBSE Class XII Diagnostic & Revision",
+  "short_name": "Physics 2027",
+  "description": "Offline diagnostic, revision scheduler and strict exam simulator for the CBSE Class XII Physics (042) 2027 theory paper. Chapter level only.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b1220",
+  "theme_color": "#0f1b2d",
+  "categories": ["education"],
+  "lang": "en-IN",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Practice", "url": "./index.html#practice"},
+    {"name": "Exam", "url": "./index.html#exam"},
+    {"name": "Progress", "url": "./index.html#progress"}
+  ]
+}

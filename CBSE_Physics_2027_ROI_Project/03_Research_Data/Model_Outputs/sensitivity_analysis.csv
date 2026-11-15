@@ -1,0 +1,225 @@
+variant,chapter_no,chapter_name,rank,rank_change_vs_base,incremental_roi
+base,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0,0.4805
+base,8,Electromagnetic Waves,2,0,0.4045
+base,13,Nuclei,3,0,0.3648
+base,11,Dual Nature of Radiation and Matter,4,0,0.3496
+base,10,Wave Optics,5,0,0.3442
+base,2,Electrostatic Potential and Capacitance,6,0,0.3171
+base,12,Atoms,7,0,0.3167
+base,6,Electromagnetic Induction,8,0,0.3003
+base,3,Current Electricity,9,0,0.2954
+base,9,Ray Optics and Optical Instruments,10,0,0.2829
+base,4,Moving Charges and Magnetism,11,0,0.259
+base,7,Alternating Current,12,0,0.227
+base,5,Magnetism and Matter,13,0,0.1848
+base,1,Electric Charges and Fields,14,0,0.1731
+weights_equal,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0,0.5452
+weights_equal,8,Electromagnetic Waves,2,0,0.3797
+weights_equal,13,Nuclei,3,0,0.3552
+weights_equal,11,Dual Nature of Radiation and Matter,4,0,0.345
+weights_equal,12,Atoms,5,2,0.3354
+weights_equal,10,Wave Optics,6,-1,0.3313
+weights_equal,2,Electrostatic Potential and Capacitance,7,-1,0.3125
+weights_equal,9,Ray Optics and Optical Instruments,8,2,0.3002
+weights_equal,6,Electromagnetic Induction,9,-1,0.2979
+weights_equal,3,Current Electricity,10,-1,0.2891
+weights_equal,4,Moving Charges and Magnetism,11,0,0.2347
+weights_equal,7,Alternating Current,12,0,0.2242
+weights_equal,5,Magnetism and Matter,13,0,0.2168
+weights_equal,1,Electric Charges and Fields,14,0,0.1537
+weights_historical_heavy,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0,0.5452
+weights_historical_heavy,8,Electromagnetic Waves,2,0,0.4254
+weights_historical_heavy,13,Nuclei,3,0,0.35
+weights_historical_heavy,11,Dual Nature of Radiation and Matter,4,0,0.3436
+weights_historical_heavy,12,Atoms,5,2,0.3415
+weights_historical_heavy,10,Wave Optics,6,-1,0.3348
+weights_historical_heavy,6,Electromagnetic Induction,7,1,0.3108
+weights_historical_heavy,2,Electrostatic Potential and Capacitance,8,-2,0.2977
+weights_historical_heavy,9,Ray Optics and Optical Instruments,9,1,0.2835
+weights_historical_heavy,3,Current Electricity,10,-1,0.2816
+weights_historical_heavy,4,Moving Charges and Magnetism,11,0,0.2731
+weights_historical_heavy,7,Alternating Current,12,0,0.2048
+weights_historical_heavy,1,Electric Charges and Fields,13,1,0.1805
+weights_historical_heavy,5,Magnetism and Matter,14,-1,0.1494
+weights_mtg_heavy,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0,0.5452
+weights_mtg_heavy,11,Dual Nature of Radiation and Matter,2,2,0.3652
+weights_mtg_heavy,8,Electromagnetic Waves,3,-1,0.362
+weights_mtg_heavy,13,Nuclei,4,-1,0.3433
+weights_mtg_heavy,10,Wave Optics,5,0,0.3288
+weights_mtg_heavy,12,Atoms,6,1,0.3236
+weights_mtg_heavy,9,Ray Optics and Optical Instruments,7,3,0.3074
+weights_mtg_heavy,2,Electrostatic Potential and Capacitance,8,-2,0.2969
+weights_mtg_heavy,6,Electromagnetic Induction,9,-1,0.2969
+weights_mtg_heavy,3,Current Electricity,10,-1,0.2763
+weights_mtg_heavy,4,Moving Charges and Magnetism,11,0,0.2566
+weights_mtg_heavy,7,Alternating Current,12,0,0.2281
+weights_mtg_heavy,1,Electric Charges and Fields,13,1,0.1881
+weights_mtg_heavy,5,Magnetism and Matter,14,-1,0.1605
+no_deletion_adjustment,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0,0.5452
+no_deletion_adjustment,8,Electromagnetic Waves,2,0,0.39
+no_deletion_adjustment,13,Nuclei,3,0,0.3518
+no_deletion_adjustment,11,Dual Nature of Radiation and Matter,4,0,0.3476
+no_deletion_adjustment,12,Atoms,5,2,0.3356
+no_deletion_adjustment,10,Wave Optics,6,-1,0.3319
+no_deletion_adjustment,2,Electrostatic Potential and Capacitance,7,-1,0.3058
+no_deletion_adjustment,6,Electromagnetic Induction,8,0,0.3017
+no_deletion_adjustment,9,Ray Optics and Optical Instruments,9,1,0.2965
+no_deletion_adjustment,3,Current Electricity,10,-1,0.2849
+no_deletion_adjustment,4,Moving Charges and Magnetism,11,0,0.2498
+no_deletion_adjustment,7,Alternating Current,12,0,0.2189
+no_deletion_adjustment,5,Magnetism and Matter,13,0,0.1875
+no_deletion_adjustment,1,Electric Charges and Fields,14,0,0.1669
+deletion_x1_5,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0,0.4464
+deletion_x1_5,8,Electromagnetic Waves,2,0,0.4121
+deletion_x1_5,13,Nuclei,3,0,0.3717
+deletion_x1_5,10,Wave Optics,4,1,0.3507
+deletion_x1_5,11,Dual Nature of Radiation and Matter,5,-1,0.3507
+deletion_x1_5,2,Electrostatic Potential and Capacitance,6,0,0.3231
+deletion_x1_5,12,Atoms,7,0,0.3067
+deletion_x1_5,3,Current Electricity,8,1,0.301
+deletion_x1_5,6,Electromagnetic Induction,9,-1,0.2996
+deletion_x1_5,9,Ray Optics and Optical Instruments,10,0,0.2757
+deletion_x1_5,4,Moving Charges and Magnetism,11,0,0.2639
+deletion_x1_5,7,Alternating Current,12,0,0.2313
+deletion_x1_5,5,Magnetism and Matter,13,0,0.1833
+deletion_x1_5,1,Electric Charges and Fields,14,0,0.1763
+deletion_x0_5,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0,0.5134
+deletion_x0_5,8,Electromagnetic Waves,2,0,0.3971
+deletion_x0_5,13,Nuclei,3,0,0.3582
+deletion_x0_5,11,Dual Nature of Radiation and Matter,4,0,0.3486
+deletion_x0_5,10,Wave Optics,5,0,0.338
+deletion_x0_5,12,Atoms,6,1,0.3263
+deletion_x0_5,2,Electrostatic Potential and Capacitance,7,-1,0.3113
+deletion_x0_5,6,Electromagnetic Induction,8,0,0.301
+deletion_x0_5,3,Current Electricity,9,0,0.2901
+deletion_x0_5,9,Ray Optics and Optical Instruments,10,0,0.2898
+deletion_x0_5,4,Moving Charges and Magnetism,11,0,0.2543
+deletion_x0_5,7,Alternating Current,12,0,0.2229
+deletion_x0_5,5,Magnetism and Matter,13,0,0.1862
+deletion_x0_5,1,Electric Charges and Fields,14,0,0.1699
+hours_hard_chapters_x1_35,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0,0.5339
+hours_hard_chapters_x1_35,8,Electromagnetic Waves,2,0,0.4494
+hours_hard_chapters_x1_35,13,Nuclei,3,0,0.4053
+hours_hard_chapters_x1_35,11,Dual Nature of Radiation and Matter,4,0,0.3884
+hours_hard_chapters_x1_35,12,Atoms,5,2,0.3519
+hours_hard_chapters_x1_35,6,Electromagnetic Induction,6,2,0.3337
+hours_hard_chapters_x1_35,3,Current Electricity,7,2,0.3283
+hours_hard_chapters_x1_35,10,Wave Optics,8,-3,0.255
+hours_hard_chapters_x1_35,2,Electrostatic Potential and Capacitance,9,-3,0.2349
+hours_hard_chapters_x1_35,9,Ray Optics and Optical Instruments,10,0,0.2095
+hours_hard_chapters_x1_35,5,Magnetism and Matter,11,2,0.2053
+hours_hard_chapters_x1_35,1,Electric Charges and Fields,12,2,0.1923
+hours_hard_chapters_x1_35,4,Moving Charges and Magnetism,13,-2,0.1918
+hours_hard_chapters_x1_35,7,Alternating Current,14,-2,0.1682
+hours_hard_chapters_x0_75,10,Wave Optics,1,4,0.4589
+hours_hard_chapters_x0_75,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",2,-1,0.4368
+hours_hard_chapters_x0_75,2,Electrostatic Potential and Capacitance,3,3,0.4228
+hours_hard_chapters_x0_75,9,Ray Optics and Optical Instruments,4,6,0.3772
+hours_hard_chapters_x0_75,8,Electromagnetic Waves,5,-3,0.3677
+hours_hard_chapters_x0_75,4,Moving Charges and Magnetism,6,5,0.3453
+hours_hard_chapters_x0_75,13,Nuclei,7,-4,0.3316
+hours_hard_chapters_x0_75,11,Dual Nature of Radiation and Matter,8,-4,0.3178
+hours_hard_chapters_x0_75,7,Alternating Current,9,3,0.3027
+hours_hard_chapters_x0_75,12,Atoms,10,-3,0.2879
+hours_hard_chapters_x0_75,6,Electromagnetic Induction,11,-3,0.273
+hours_hard_chapters_x0_75,3,Current Electricity,12,-3,0.2686
+hours_hard_chapters_x0_75,5,Magnetism and Matter,13,0,0.168
+hours_hard_chapters_x0_75,1,Electric Charges and Fields,14,0,0.1573
+ac_generator_in_ch6,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0,0.5452
+ac_generator_in_ch6,8,Electromagnetic Waves,2,0,0.4053
+ac_generator_in_ch6,13,Nuclei,3,0,0.3666
+ac_generator_in_ch6,11,Dual Nature of Radiation and Matter,4,0,0.3513
+ac_generator_in_ch6,10,Wave Optics,5,0,0.3449
+ac_generator_in_ch6,6,Electromagnetic Induction,6,2,0.3262
+ac_generator_in_ch6,12,Atoms,7,0,0.3183
+ac_generator_in_ch6,2,Electrostatic Potential and Capacitance,8,-2,0.3058
+ac_generator_in_ch6,3,Current Electricity,9,0,0.2849
+ac_generator_in_ch6,9,Ray Optics and Optical Instruments,10,0,0.2835
+ac_generator_in_ch6,4,Moving Charges and Magnetism,11,0,0.254
+ac_generator_in_ch6,7,Alternating Current,12,0,0.199
+ac_generator_in_ch6,5,Magnetism and Matter,13,0,0.1812
+ac_generator_in_ch6,1,Electric Charges and Fields,14,0,0.1669
+baseline_slope_flat_0_06,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0,0.4805
+baseline_slope_flat_0_06,8,Electromagnetic Waves,2,0,0.4045
+baseline_slope_flat_0_06,13,Nuclei,3,0,0.3648
+baseline_slope_flat_0_06,11,Dual Nature of Radiation and Matter,4,0,0.3496
+baseline_slope_flat_0_06,10,Wave Optics,5,0,0.3442
+baseline_slope_flat_0_06,2,Electrostatic Potential and Capacitance,6,0,0.3171
+baseline_slope_flat_0_06,12,Atoms,7,0,0.3167
+baseline_slope_flat_0_06,6,Electromagnetic Induction,8,0,0.3003
+baseline_slope_flat_0_06,3,Current Electricity,9,0,0.2954
+baseline_slope_flat_0_06,9,Ray Optics and Optical Instruments,10,0,0.2829
+baseline_slope_flat_0_06,4,Moving Charges and Magnetism,11,0,0.259
+baseline_slope_flat_0_06,7,Alternating Current,12,0,0.227
+baseline_slope_flat_0_06,5,Magnetism and Matter,13,0,0.1848
+baseline_slope_flat_0_06,1,Electric Charges and Fields,14,0,0.1731
+baseline_slope_steep_0_17,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0,0.4805
+baseline_slope_steep_0_17,8,Electromagnetic Waves,2,0,0.4045
+baseline_slope_steep_0_17,13,Nuclei,3,0,0.3648
+baseline_slope_steep_0_17,11,Dual Nature of Radiation and Matter,4,0,0.3496
+baseline_slope_steep_0_17,10,Wave Optics,5,0,0.3442
+baseline_slope_steep_0_17,2,Electrostatic Potential and Capacitance,6,0,0.3171
+baseline_slope_steep_0_17,12,Atoms,7,0,0.3167
+baseline_slope_steep_0_17,6,Electromagnetic Induction,8,0,0.3003
+baseline_slope_steep_0_17,3,Current Electricity,9,0,0.2954
+baseline_slope_steep_0_17,9,Ray Optics and Optical Instruments,10,0,0.2829
+baseline_slope_steep_0_17,4,Moving Charges and Magnetism,11,0,0.259
+baseline_slope_steep_0_17,7,Alternating Current,12,0,0.227
+baseline_slope_steep_0_17,5,Magnetism and Matter,13,0,0.1848
+baseline_slope_steep_0_17,1,Electric Charges and Fields,14,0,0.1731
+gap_elasticity_0_7,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0,0.3502
+gap_elasticity_0_7,8,Electromagnetic Waves,2,0,0.2948
+gap_elasticity_0_7,10,Wave Optics,3,2,0.2812
+gap_elasticity_0_7,13,Nuclei,4,-1,0.2759
+gap_elasticity_0_7,11,Dual Nature of Radiation and Matter,5,-1,0.2644
+gap_elasticity_0_7,2,Electrostatic Potential and Capacitance,6,0,0.2554
+gap_elasticity_0_7,12,Atoms,7,0,0.2436
+gap_elasticity_0_7,6,Electromagnetic Induction,8,0,0.2348
+gap_elasticity_0_7,3,Current Electricity,9,0,0.2345
+gap_elasticity_0_7,9,Ray Optics and Optical Instruments,10,0,0.2279
+gap_elasticity_0_7,4,Moving Charges and Magnetism,11,0,0.2116
+gap_elasticity_0_7,7,Alternating Current,12,0,0.1867
+gap_elasticity_0_7,5,Magnetism and Matter,13,0,0.1372
+gap_elasticity_0_7,1,Electric Charges and Fields,14,0,0.1342
+gap_elasticity_1_3,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0,0.6593
+gap_elasticity_1_3,8,Electromagnetic Waves,2,0,0.5549
+gap_elasticity_1_3,13,Nuclei,3,0,0.4824
+gap_elasticity_1_3,11,Dual Nature of Radiation and Matter,4,0,0.4622
+gap_elasticity_1_3,10,Wave Optics,5,0,0.4214
+gap_elasticity_1_3,12,Atoms,6,1,0.4117
+gap_elasticity_1_3,2,Electrostatic Potential and Capacitance,7,-1,0.3936
+gap_elasticity_1_3,6,Electromagnetic Induction,8,0,0.3841
+gap_elasticity_1_3,3,Current Electricity,9,0,0.3722
+gap_elasticity_1_3,9,Ray Optics and Optical Instruments,10,0,0.3512
+gap_elasticity_1_3,4,Moving Charges and Magnetism,11,0,0.317
+gap_elasticity_1_3,7,Alternating Current,12,0,0.276
+gap_elasticity_1_3,5,Magnetism and Matter,13,0,0.2487
+gap_elasticity_1_3,1,Electric Charges and Fields,14,0,0.2231
+choice_boost_0,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0,0.5701
+choice_boost_0,8,Electromagnetic Waves,2,0,0.4799
+choice_boost_0,13,Nuclei,3,0,0.4328
+choice_boost_0,11,Dual Nature of Radiation and Matter,4,0,0.4148
+choice_boost_0,10,Wave Optics,5,0,0.4084
+choice_boost_0,2,Electrostatic Potential and Capacitance,6,0,0.3762
+choice_boost_0,12,Atoms,7,0,0.3757
+choice_boost_0,6,Electromagnetic Induction,8,0,0.3563
+choice_boost_0,3,Current Electricity,9,0,0.3505
+choice_boost_0,9,Ray Optics and Optical Instruments,10,0,0.3356
+choice_boost_0,4,Moving Charges and Magnetism,11,0,0.3073
+choice_boost_0,7,Alternating Current,12,0,0.2693
+choice_boost_0,5,Magnetism and Matter,13,0,0.2192
+choice_boost_0,1,Electric Charges and Fields,14,0,0.2053
+choice_boost_0_75,14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0,0.4357
+choice_boost_0_75,8,Electromagnetic Waves,2,0,0.3668
+choice_boost_0_75,13,Nuclei,3,0,0.3308
+choice_boost_0_75,11,Dual Nature of Radiation and Matter,4,0,0.317
+choice_boost_0_75,10,Wave Optics,5,0,0.3121
+choice_boost_0_75,2,Electrostatic Potential and Capacitance,6,0,0.2875
+choice_boost_0_75,12,Atoms,7,0,0.2872
+choice_boost_0_75,6,Electromagnetic Induction,8,0,0.2723
+choice_boost_0_75,3,Current Electricity,9,0,0.2679
+choice_boost_0_75,9,Ray Optics and Optical Instruments,10,0,0.2565
+choice_boost_0_75,4,Moving Charges and Magnetism,11,0,0.2349
+choice_boost_0_75,7,Alternating Current,12,0,0.2058
+choice_boost_0_75,5,Magnetism and Matter,13,0,0.1675
+choice_boost_0_75,1,Electric Charges and Fields,14,0,0.1569

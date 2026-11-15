@@ -1,0 +1,14 @@
+CBSE Physics 2027 - Diagnostic PWA (build PWA-1.0.0)
+====================================================
+
+The app is a static site. Serve this folder over HTTP (not file://) so the
+service worker can register:
+
+    python -m http.server 8080
+
+then open http://localhost:8080/ and use the browser's Install action
+(Chrome/Edge: address-bar install icon; Android: Add to Home screen;
+iOS Safari: Share > Add to Home Screen).
+
+After the first load the app works with no network at all. Data stays in
+this browser's IndexedDB; export a JSON backup from the Backup tab.

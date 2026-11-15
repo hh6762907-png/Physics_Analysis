@@ -1,0 +1,15 @@
+chapter_no,chapter_name,primary_rank,rank_min_across_scenarios,rank_max_across_scenarios,rank_median_across_scenarios,n_scenarios,share_top3_across_scenarios,share_top5_across_scenarios,p_top3_monte_carlo,p_top5_monte_carlo,robustness_score
+1,Electric Charges and Fields,14,6,14,14.0,44,0.0,0.0,0.0,0.0001,0.385
+2,Electrostatic Potential and Capacitance,6,2,9,6.0,44,0.1364,0.2045,0.1569,0.3682,0.184
+3,Current Electricity,9,3,12,9.0,44,0.0227,0.0909,0.084,0.2409,0.165
+4,Moving Charges and Magnetism,11,3,13,11.0,44,0.0227,0.0682,0.0188,0.0828,0.204
+5,Magnetism and Matter,13,8,14,13.0,44,0.0,0.0,0.0001,0.0006,0.346
+6,Electromagnetic Induction,8,3,11,8.0,44,0.0455,0.0682,0.1003,0.2665,0.177
+7,Alternating Current,12,1,14,12.0,44,0.0227,0.0455,0.0029,0.0189,0.242
+8,Electromagnetic Waves,2,2,13,2.0,44,0.7955,0.8182,0.5905,0.8021,0.59
+9,Ray Optics and Optical Instruments,10,3,10,10.0,44,0.0227,0.1136,0.0541,0.1714,0.165
+10,Wave Optics,5,1,8,5.0,44,0.2045,0.9091,0.2757,0.5292,0.256
+11,Dual Nature of Radiation and Matter,4,2,13,4.0,44,0.0682,0.8409,0.3049,0.5605,0.188
+12,Atoms,7,4,10,7.0,44,0.0,0.1136,0.1547,0.3641,0.115
+13,Nuclei,3,2,12,3.0,44,0.7727,0.8409,0.3941,0.6468,0.54
+14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,1,14,1.0,44,0.8864,0.8864,0.8631,0.948,0.751

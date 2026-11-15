@@ -1,0 +1,709 @@
+{
+ "generated": "2026-11-15",
+ "checks": 100,
+ "passed": 100,
+ "failed_blocking": 0,
+ "warnings": 0,
+ "results": [
+  {
+   "group": "A. Supplied originals unchanged",
+   "name": "hash register lists 16 inputs",
+   "ok": true,
+   "detail": "16 rows",
+   "blocking": true
+  },
+  {
+   "group": "A. Supplied originals unchanged",
+   "name": "all 16 originals still present",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "A. Supplied originals unchanged",
+   "name": "all 16 originals byte-identical to first registration",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "ranking has 14 chapters",
+   "ok": true,
+   "detail": "14",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "ranks are the integers 1-14, each once",
+   "ok": true,
+   "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "reconciled exposure sums to 70.00",
+   "ok": true,
+   "detail": "70.000000",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "baseline + additional = target for every chapter",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "no negative or zero hours",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "ROI = additional marks / additional hours (within rounding)",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "ROI order is monotone with rank",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "tiers are single letters A-G",
+   "ok": true,
+   "detail": "['Tier A', 'Tier B', 'Tier C', 'Tier D', 'Tier E', 'Tier F', 'Tier G']",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "grades are A, B or C",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "confidence scores lie in 0-100",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "target marks below the 70-mark ceiling",
+   "ok": true,
+   "detail": "65.13",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "exposure table carries every evidence stream plus the reconciled vector",
+   "ok": true,
+   "detail": "[]",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "SQP stream sums to 70 marks",
+   "ok": true,
+   "detail": "70.00",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "Monte Carlo P(top 3) sums to 3.0",
+   "ok": true,
+   "detail": "3.0001",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "Monte Carlo P(top 5) sums to 5.0",
+   "ok": true,
+   "detail": "5.0001",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "rank p05 <= median <= p95 for every chapter",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "ROI p05 <= median <= p95 for every chapter",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "scenario grid holds 27 combinations and 4 evidence streams",
+   "ok": true,
+   "detail": "434",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "sensitivity analysis holds 16 variants",
+   "ok": true,
+   "detail": "224",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "model script re-runs without error",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "B. Model outputs",
+   "name": "model re-run reproduces every CSV byte-for-byte",
+   "ok": true,
+   "detail": "[]",
+   "blocking": true
+  },
+  {
+   "group": "C. Official unit constraint",
+   "name": "official cells are 16/17/18/12/7",
+   "ok": true,
+   "detail": "[16.0, 17.0, 18.0, 12.0, 7.0]",
+   "blocking": true
+  },
+  {
+   "group": "C. Official unit constraint",
+   "name": "official cells total 70",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "C. Official unit constraint",
+   "name": "deletion-adjusted vector still totals 70",
+   "ok": true,
+   "detail": "70.0000",
+   "blocking": true
+  },
+  {
+   "group": "C. Official unit constraint",
+   "name": "deviations from official cells are reported with sign",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "C. Official unit constraint",
+   "name": "largest deviation is documented (no silent drift)",
+   "ok": true,
+   "detail": "Unit IX -11.86%",
+   "blocking": true
+  },
+  {
+   "group": "D. Question bank",
+   "name": "84 items",
+   "ok": true,
+   "detail": "84",
+   "blocking": true
+  },
+  {
+   "group": "D. Question bank",
+   "name": "6 items per chapter",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "D. Question bank",
+   "name": "all 14 chapters covered",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "D. Question bank",
+   "name": "ids unique",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "D. Question bank",
+   "name": "choice items have four options and an in-range key",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "D. Question bank",
+   "name": "written items carry a rubric and model answer",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "D. Question bank",
+   "name": "every item is labelled ORIGINAL",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "D. Question bank",
+   "name": "no item claims to be a previous-year question",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "D. Question bank",
+   "name": "app data copy is identical to the master bank",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "D. Question bank",
+   "name": "every chapter carries at least 7 marks of practice material",
+   "ok": true,
+   "detail": "{1: 7, 2: 7, 3: 7, 4: 7, 5: 7, 6: 7, 7: 7, 8: 7, 9: 7, 10: 7, 11: 7, 12: 7, 13: 7, 14: 7}",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "all deployable files present",
+   "ok": true,
+   "detail": "[]",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "manifest declares name",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "manifest declares short_name",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "manifest declares start_url",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "manifest declares display",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "manifest declares icons",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "manifest declares theme_color",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "manifest declares scope",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "manifest has a 192px icon",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "manifest has a 512px icon",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "manifest has a maskable icon",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "every precached asset exists",
+   "ok": true,
+   "detail": "[]",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "service worker caches the question bank",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "service worker ignores cross-origin requests",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "no external network dependencies in the app shell",
+   "ok": true,
+   "detail": "[]",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "no app code calls localhost",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "build manifest hashes match the deployed files",
+   "ok": true,
+   "detail": "[]",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "all scripts parse under Node",
+   "ok": true,
+   "detail": "[]",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "logic test suite passes",
+   "ok": true,
+   "detail": "53 passed, 0 failed",
+   "blocking": true
+  },
+  {
+   "group": "E. Offline application",
+   "name": "DOM smoke test passes in jsdom",
+   "ok": true,
+   "detail": "30 passed, 0 failed",
+   "blocking": true
+  },
+  {
+   "group": "F. Analysis workbook",
+   "name": "workbook exists",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "F. Analysis workbook",
+   "name": "26 required sheets present",
+   "ok": true,
+   "detail": "[]",
+   "blocking": true
+  },
+  {
+   "group": "F. Analysis workbook",
+   "name": "workbook carries live formulas",
+   "ok": true,
+   "detail": "741 formula cells",
+   "blocking": true
+  },
+  {
+   "group": "F. Analysis workbook",
+   "name": "no formula has unbalanced parentheses",
+   "ok": true,
+   "detail": "[]",
+   "blocking": true
+  },
+  {
+   "group": "F. Analysis workbook",
+   "name": "all digit-leading sheet references are quoted",
+   "ok": true,
+   "detail": "[]",
+   "blocking": true
+  },
+  {
+   "group": "F. Analysis workbook",
+   "name": "dashboard references model cells",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "F. Analysis workbook",
+   "name": "scenario control has data validation",
+   "ok": true,
+   "detail": "3 rules",
+   "blocking": true
+  },
+  {
+   "group": "F. Analysis workbook",
+   "name": "workbook embeds charts",
+   "ok": true,
+   "detail": "5",
+   "blocking": true
+  },
+  {
+   "group": "F. Analysis workbook",
+   "name": "audit sheet exists with pass/fail cells",
+   "ok": true,
+   "detail": "13",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "full report exists",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "concise ranking exists",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "full report has 25-40 pages",
+   "ok": true,
+   "detail": "28",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "full report mentions 16",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "full report mentions 17",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "full report mentions 18",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "full report mentions 12",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "full report mentions 7",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "full report mentions Semiconductor",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "full report mentions 70",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "full report carries the ranking table (all 14 chapters)",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "full report states the limitations section",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "full report does not present a predictive-accuracy score for MTG",
+   "ok": true,
+   "detail": "no accuracy claim found",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "concise ranking has 1-4 pages",
+   "ok": true,
+   "detail": "2",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "concise ranking lists 14 chapters",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "H. Markdown report",
+   "name": "markdown report exists",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "H. Markdown report",
+   "name": "ranked tables cover all 14 chapters in each of the two rankings",
+   "ok": true,
+   "detail": "28 rows",
+   "blocking": true
+  },
+  {
+   "group": "H. Markdown report",
+   "name": "both tables name the same 14 chapters",
+   "ok": true,
+   "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",
+   "blocking": true
+  },
+  {
+   "group": "H. Markdown report",
+   "name": "every ROI value from the CSV appears in the report",
+   "ok": true,
+   "detail": "[]",
+   "blocking": true
+  },
+  {
+   "group": "H. Markdown report",
+   "name": "report states the 70-mark constraint",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "H. Markdown report",
+   "name": "report discloses the missing question-level database",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "H. Markdown report",
+   "name": "report discloses hour estimates as expert judgement",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "I. Cross-file consistency",
+   "name": "app ranking data matches the model CSV",
+   "ok": true,
+   "detail": "{}",
+   "blocking": true
+  },
+  {
+   "group": "I. Cross-file consistency",
+   "name": "app exposure data matches the model CSV",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "I. Cross-file consistency",
+   "name": "model metadata records the evidence weights",
+   "ok": true,
+   "detail": "{'A': 0.4, 'B': 0.35, 'C': 0.25}",
+   "blocking": true
+  },
+  {
+   "group": "J. Chapter-level-only rule",
+   "name": "no topic-level analysis phrase in any deliverable",
+   "ok": true,
+   "detail": "[]",
+   "blocking": true
+  },
+  {
+   "group": "K. Project packaging",
+   "name": "the nine top-level folders exist",
+   "ok": true,
+   "detail": "[]",
+   "blocking": true
+  },
+  {
+   "group": "K. Project packaging",
+   "name": "documentation set has at least eight documents",
+   "ok": true,
+   "detail": "10",
+   "blocking": true
+  },
+  {
+   "group": "K. Project packaging",
+   "name": "scripts present in extraction/calculations/validation",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "K. Project packaging",
+   "name": "source archive retains the input hash register",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  },
+  {
+   "group": "K. Project packaging",
+   "name": "handover ZIP opens and contains the reports",
+   "ok": true,
+   "detail": "87",
+   "blocking": true
+  },
+  {
+   "group": "K. Project packaging",
+   "name": "handover ZIP contains no supplied original images",
+   "ok": true,
+   "detail": "",
+   "blocking": true
+  }
+ ]
+}

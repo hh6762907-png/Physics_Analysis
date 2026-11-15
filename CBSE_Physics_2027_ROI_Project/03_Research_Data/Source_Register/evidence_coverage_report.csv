@@ -1,0 +1,9 @@
+evidence_item,status,coverage,source_id,notes
+Official syllabus 2026-27,AVAILABLE,1,S01,"verified, full text used"
+Official SQP 2026-27 + marking scheme,AVAILABLE,1,S03,33 questions attributed to chapters
+Official board papers 2017-2026 (originals),NOT AVAILABLE,0,-,Egress to board-paper hosts blocked (SSL); no original paper PDF could be downloaded or legally archived in this environment
+MTG-reported question counts 2017-2026,AVAILABLE (secondary),10 years,S04 IMG-01,14 chapters x 10 exam years (+2021 not held)
+MTG-reported 10-year marks aggregates,AVAILABLE (secondary),14 chapters,S04 IMG-02..15,sum of printed Total# column
+Compartment / supplementary papers,NOT AVAILABLE,0,-,No compartment paper reached this environment; all analyses use regular papers only
+Marking schemes for historical papers,NOT AVAILABLE,0,-,"Not reachable; probability model therefore uses format-based priors, not per-question mark data"
+NCERT textbook text,NOT RETRIEVED,0,S07,access restriction

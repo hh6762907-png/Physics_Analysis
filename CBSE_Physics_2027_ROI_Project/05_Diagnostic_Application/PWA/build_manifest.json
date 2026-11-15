@@ -1,0 +1,63 @@
+{
+ "build": "PWA-1.0.0",
+ "built": "2026-11-15",
+ "source": "05_Diagnostic_Application/Application_Source",
+ "note": "Byte-identical copies; see Documentation/06_PWA_Architecture.md",
+ "assets": [
+  {
+   "path": "index.html",
+   "bytes": 6049,
+   "sha256": "0f2872246cfc7fdfeb72ea2a68e301df960b748470a358dd921dea704b787663"
+  },
+  {
+   "path": "styles.css",
+   "bytes": 7060,
+   "sha256": "0d5f95f0d72c35bb7be62636db8ce958671795601c9435d4dd88b059d1105015"
+  },
+  {
+   "path": "logic.js",
+   "bytes": 19616,
+   "sha256": "c08db0edbd5d66009efdc8dc7e205a9b0f6fcb85cc80fdaa99626776700354f6"
+  },
+  {
+   "path": "app.js",
+   "bytes": 42876,
+   "sha256": "575c3ef02492828e2a22e28116bdf208f0456ea7905fecde676114e477b46341"
+  },
+  {
+   "path": "sw.js",
+   "bytes": 2293,
+   "sha256": "4236b4c10100a3251004ed781d8e33d43d672444bea6f9981be361c5bb7e4773"
+  },
+  {
+   "path": "manifest.webmanifest",
+   "bytes": 986,
+   "sha256": "8776ce845f035aee9ce71882d3a20dafba62b9ccc75b5b734201ca17cabaddfd"
+  },
+  {
+   "path": "icons/icon-192.png",
+   "bytes": 2236,
+   "sha256": "11e4c527f503b2f3d8746b513d73a4208522c32ce45736a962074305805e7acb"
+  },
+  {
+   "path": "icons/icon-512.png",
+   "bytes": 6209,
+   "sha256": "ffa0fde1a78b64dfa2191b44294309b34610a0fba80e0c0ca13be3a14a33d3ba"
+  },
+  {
+   "path": "icons/icon-maskable-512.png",
+   "bytes": 6052,
+   "sha256": "b8d558cc8fb3cee3dc2435000bf4fc6c62dddb593cd3a98c12a2a0a952155304"
+  },
+  {
+   "path": "data/research_ranking.json",
+   "bytes": 3983,
+   "sha256": "feb9e1ac43626f4a0714011b38cbc7ec5a9482453a9b354eb852983ab169c8b6"
+  },
+  {
+   "path": "data/question_bank.json",
+   "bytes": 75765,
+   "sha256": "ff5dcc6059903c4b79148bdd305dcfb0ad1cabd320557266f07f0899964dea89"
+  }
+ ]
+}

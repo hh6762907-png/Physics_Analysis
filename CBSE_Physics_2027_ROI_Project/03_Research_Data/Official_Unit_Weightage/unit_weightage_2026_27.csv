@@ -1,0 +1,11 @@
+unit,unit_name,chapters,marks,printed_cell,source,verification
+I,Electrostatics,C1;C2,16,16,Physics_SecP2_2026-27.pdf p.12 (merged MARKS cell),verified officially
+II,Current Electricity,C3,16,16,Physics_SecP2_2026-27.pdf p.12 (merged MARKS cell),verified officially
+III,Magnetic Effects of Current and Magnetism,C4;C5,17,17,Physics_SecP2_2026-27.pdf p.12 (merged MARKS cell),verified officially
+IV,Electromagnetic Induction and Alternating Currents,C6;C7,17,17,Physics_SecP2_2026-27.pdf p.12 (merged MARKS cell),verified officially
+V,Electromagnetic Waves,C8,18,18,Physics_SecP2_2026-27.pdf p.12 (merged MARKS cell),verified officially
+VI,Optics,C9;C10,18,18,Physics_SecP2_2026-27.pdf p.12 (merged MARKS cell),verified officially
+VII,Dual Nature of Radiation and Matter,C11,12,12,Physics_SecP2_2026-27.pdf p.12 (merged MARKS cell),verified officially
+VIII,Atoms and Nuclei,C12;C13,12,12,Physics_SecP2_2026-27.pdf p.12 (merged MARKS cell),verified officially
+IX,Electronic Devices,C14,7,7,Physics_SecP2_2026-27.pdf p.12 (merged MARKS cell),verified officially
+TOTAL,All nine units,C1-C14,70,70,Physics_SecP2_2026-27.pdf p.12,verified officially

@@ -1,0 +1,15 @@
+chapter_no,chapter_name,rank,incremental_roi,p_top3,p_top5,median_rank,rank_p05,rank_p95,roi_p05,roi_median,roi_p95
+1,Electric Charges and Fields,14,0.1731,0.0,0.0001,14.0,11.0,14.0,0.1172,0.1652,0.2271
+2,Electrostatic Potential and Capacitance,6,0.3171,0.1569,0.3682,7.0,2.0,12.0,0.215,0.3025,0.4128
+3,Current Electricity,9,0.2954,0.084,0.2409,8.0,3.0,12.0,0.2018,0.2821,0.3826
+4,Moving Charges and Magnetism,11,0.259,0.0188,0.0828,10.0,5.0,13.0,0.1772,0.2473,0.3366
+5,Magnetism and Matter,13,0.1848,0.0001,0.0006,13.0,10.0,14.0,0.1247,0.1761,0.2436
+6,Electromagnetic Induction,8,0.3003,0.1003,0.2665,8.0,3.0,12.0,0.2043,0.2868,0.3935
+7,Alternating Current,12,0.227,0.0029,0.0189,12.0,7.0,14.0,0.1535,0.2163,0.2957
+8,Electromagnetic Waves,2,0.4045,0.5905,0.8021,3.0,1.0,9.0,0.2708,0.3836,0.5286
+9,Ray Optics and Optical Instruments,10,0.2829,0.0541,0.1714,9.0,3.0,12.0,0.1943,0.2701,0.3663
+10,Wave Optics,5,0.3442,0.2757,0.5292,5.0,2.0,11.0,0.2338,0.3282,0.4473
+11,Dual Nature of Radiation and Matter,4,0.3496,0.3049,0.5605,5.0,1.0,10.0,0.238,0.3331,0.4567
+12,Atoms,7,0.3167,0.1547,0.3641,7.0,2.0,12.0,0.2133,0.3025,0.4151
+13,Nuclei,3,0.3648,0.3941,0.6468,4.0,1.0,10.0,0.2462,0.3487,0.4775
+14,"Semiconductor Electronics: Materials, Devices and Simple Circuits",1,0.4805,0.8631,0.948,1.0,1.0,6.0,0.3266,0.4577,0.6279
