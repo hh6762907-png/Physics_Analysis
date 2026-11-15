@@ -1115,7 +1115,7 @@ def build_full_report():
 def build_concise():
     rank_rows = sorted(load("roi_primary_ranking.csv"), key=lambda r: int(r["rank"]))
     mc = {int(r["chapter_no"]): r for r in load("monte_carlo_results.csv")}
-    story = [PageBreak()]
+    story = []
     story.append(P("CBSE Class XII Physics 2027", "title"))
     story.append(P("Concise chapter ranking - incremental preparation ROI", "subtitle"))
     story.append(Spacer(1, 6 * mm))

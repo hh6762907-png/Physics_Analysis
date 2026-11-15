@@ -319,6 +319,8 @@ def check_pdf():
               all(ch in text for ch in ("Electric Charges and Fields", "Nuclei",
                                         "Alternating Current", "Wave Optics")))
         check(g, "full report states the limitations section", "Limitation" in text or "limitation" in text)
+        blank = [i + 1 for i, pg in enumerate(r.pages) if len((pg.extract_text() or "").strip()) < 60]
+        check(g, "full report has no blank pages", not blank, blank)
         check(g, "full report does not present a predictive-accuracy score for MTG",
               not re.search(r"MTG[^.]{0,80}(accuracy|hit rate)[^.]{0,20}\d+%", text, re.I),
               "no accuracy claim found" )
@@ -326,6 +328,8 @@ def check_pdf():
         r = PdfReader(str(conc))
         text = "\n".join((p.extract_text() or "") for p in r.pages)
         check(g, "concise ranking has 1-4 pages", 1 <= len(r.pages) <= 4, len(r.pages))
+        blank = [i + 1 for i, pg in enumerate(r.pages) if len((pg.extract_text() or "").strip()) < 60]
+        check(g, "concise ranking has no blank pages", not blank, blank)
         check(g, "concise ranking lists 14 chapters",
               sum(1 for c in range(1, 15) if re.search(rf"\bC{c}\b", text)) == 14)
 

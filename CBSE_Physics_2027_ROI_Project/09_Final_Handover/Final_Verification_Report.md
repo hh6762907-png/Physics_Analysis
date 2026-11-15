@@ -4,7 +4,7 @@
 
 ## 1. Verification result
 
-Validation suite: **100 checks, 100 passed, 0 blocking failures, 0 warnings**.
+Validation suite: **102 checks, 102 passed, 0 blocking failures, 0 warnings**.
 
 There are no blocking failures. Every check listed below was executed against the delivered files; nothing is reported as passing on the basis of expectation.
 

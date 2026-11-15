@@ -1,7 +1,7 @@
 {
  "generated": "2026-11-15",
- "checks": 100,
- "passed": 100,
+ "checks": 102,
+ "passed": 102,
  "failed_blocking": 0,
  "warnings": 0,
  "results": [
@@ -567,6 +567,13 @@
   },
   {
    "group": "G. PDF reports",
+   "name": "full report has no blank pages",
+   "ok": true,
+   "detail": "[]",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
    "name": "full report does not present a predictive-accuracy score for MTG",
    "ok": true,
    "detail": "no accuracy claim found",
@@ -576,7 +583,14 @@
    "group": "G. PDF reports",
    "name": "concise ranking has 1-4 pages",
    "ok": true,
-   "detail": "2",
+   "detail": "1",
+   "blocking": true
+  },
+  {
+   "group": "G. PDF reports",
+   "name": "concise ranking has no blank pages",
+   "ok": true,
+   "detail": "[]",
    "blocking": true
   },
   {
